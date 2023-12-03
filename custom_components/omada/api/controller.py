@@ -54,7 +54,7 @@ class Controller:
 
         self._token = response["token"]
 
-        LOGGER.info(f"Login successful. Role type {self.role_type}.")
+        LOGGER.info(f"Login successful.")
 
         # Acquire site id for site name as required for versions 5+
         if self.version >= "5.0.0":
